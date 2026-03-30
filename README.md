@@ -1,5 +1,13 @@
 # AccessFi
 
+[![Submission Type](https://img.shields.io/badge/Submission-Existing%20Code-orange)](./README.md)
+[![Track](https://img.shields.io/badge/Track-Infrastructure%20%26%20Digital%20Rights-blue)](./README.md)
+[![Track](https://img.shields.io/badge/Track-Crypto-blue)](./README.md)
+[![Flow](https://img.shields.io/badge/Flow-Integrated-00d1ff)](./README.md)
+[![Lit Protocol](https://img.shields.io/badge/Lit%20Protocol-Integrated-9bff7a)](./README.md)
+[![Storacha%20%2F%20Filecoin](https://img.shields.io/badge/Storacha%20%2F%20Filecoin-Integrated-8f8cff)](./README.md)
+[![NEAR](https://img.shields.io/badge/NEAR-Integrated-7cffc4)](./README.md)
+
 Deposit-backed premium access vaults for crypto-native communities, research clubs, private cohorts, and gated digital products.
 
 ## Hackathon Submission
@@ -11,6 +19,15 @@ Deposit-backed premium access vaults for crypto-native communities, research clu
 - Repo focus: the hackathon work lives in the AccessFi routes, components, services, and SQL migration listed below
 
 This repository contains the AccessFi submission built inside an existing product codebase. For hackathon review, the relevant product surface is the AccessFi app under `/accessfi`, not the older legacy routes in the rest of the repository.
+
+## Quick Links
+
+- Focused product docs: `ACCESSFI_README.md`
+- Submission copy pack: `ACCESSFI_SUBMISSION_NOTES.md`
+- Main app routes: `src/app/accessfi`
+- Main UI components: `src/components/accessfi`
+- Main domain logic: `src/lib/accessfi`
+- Database migration: `supabase/migrations/202603260001_accessfi.sql`
 
 ## What AccessFi Does
 
@@ -39,11 +56,11 @@ Judges and operators can:
 ## Demo Routes
 
 - `/accessfi`
-- `/accessfi/vaults/[vaultSlug]`
+- `/accessfi/vaults/btc-research-club`
 - `/accessfi/create`
 - `/accessfi/dashboard`
 - `/accessfi/proof`
-- `/accessfi/proof/[vaultSlug]`
+- `/accessfi/proof/btc-research-club`
 
 ## Sponsor Stack
 
