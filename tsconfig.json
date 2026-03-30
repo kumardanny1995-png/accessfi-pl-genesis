@@ -1,0 +1,69 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["dom", "dom.iterable", "es2022"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": [
+    "node_modules",
+    "src/app/admin/**/*",
+    "src/app/api/og/**/*",
+    "src/app/api/push/**/*",
+    "src/app/api/share/**/*",
+    "src/app/api/system/**/*",
+    "src/app/c/**/*",
+    "src/app/groups/**/*",
+    "src/app/leagues/**/*",
+    "src/app/matches/**/*",
+    "src/app/notifications/**/*",
+    "src/app/offline/**/*",
+    "src/app/rooms/**/*",
+    "src/app/sports/**/*",
+    "src/components/admin/**/*",
+    "src/components/challenge/**/*",
+    "src/components/group/**/*",
+    "src/components/home/**/*",
+    "src/components/layout/**/*",
+    "src/components/live/**/*",
+    "src/components/match/**/*",
+    "src/components/notifications/**/*",
+    "src/components/profile/**/*",
+    "src/components/pwa/**/*",
+    "src/components/shared/**/*",
+    "src/components/sports/**/*",
+    "src/lib/actions/**/*",
+    "src/lib/data/**/*",
+    "src/lib/providers/**/*",
+    "src/lib/services/**/*",
+    "src/lib/utils/admin.ts",
+    "src/lib/utils/format.ts",
+    "src/lib/utils/guest.ts",
+    "src/lib/utils/reputation.ts",
+    "src/lib/utils/scoring.ts",
+    "src/lib/utils/share.ts",
+    "src/lib/utils/slugs.ts",
+    "src/lib/utils/sport-meta.ts",
+    "src/lib/utils/system.ts",
+    "src/lib/validation/**/*"
+  ]
+}
